@@ -23,7 +23,8 @@
 <http://guitarix.sourceforge.net/plugins/gx_sd2lead_#_sd2lead_>
     a lv2:Plugin ;
     lv2:binary <gx_sd2lead.so>  ;
-    rdfs:seeAlso <gx_sd2lead.ttl> .
+    rdfs:seeAlso <gx_sd2lead.ttl> ,
+                 <modgui.ttl> .
 
 <default-preset>
     a <http://lv2plug.in/ns/ext/presets#Preset> ;
