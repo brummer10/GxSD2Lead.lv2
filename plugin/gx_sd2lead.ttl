@@ -112,7 +112,8 @@ rdfs:comment """
     ] .
 
 <http://guitarix.sourceforge.net/plugins/gx_sd2lead_gui#_sd2lead_>
-  a guiext:GtkUI;
+  a guiext:X11UI;
   guiext:binary <gx_sd2lead_ui.so>;
-  guiext:requiredFeature guiext:makeResident;
+        lv2:extensionData guiext::idle ; 
+        lv2:requiredFeature guiext:makeResident;
   .
