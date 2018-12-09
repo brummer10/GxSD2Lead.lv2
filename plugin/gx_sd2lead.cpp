@@ -123,7 +123,7 @@ Gx_sd2lead_::Gx_sd2lead_() :
   input(NULL),
   sd2lead(sd2lead::plugin()),
   bypass(0),
-  bypass_(0),
+  bypass_(2),
   needs_ramp_down(false),
   needs_ramp_up(false),
   bypassed(false) {};
